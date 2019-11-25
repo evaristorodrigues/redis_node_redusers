@@ -1,0 +1,26 @@
+{
+  "name": "redusers",
+  "version": "1.0.0",
+  "description": "Simple User Management Node/Redis App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/evaristorodrigues/redis_node_redusers.git"
+  },
+  "author": "Evaristo Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evaristorodrigues/redis_node_redusers/issues"
+  },
+  "homepage": "https://github.com/evaristorodrigues/redis_node_redusers#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0",
+    "redis": "^2.8.0"
+  }
+}
