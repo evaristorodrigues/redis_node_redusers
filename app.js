@@ -12,7 +12,7 @@ const redisPort = 6379;
 
 
 //set Host
-const redisHost = '172.17.0.2'
+const redisHost = '172.17.0.2';
 
 //Init app
 const app = express();
